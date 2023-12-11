@@ -19,6 +19,7 @@ nav_order: 3
 --- -->
 
 ## Libraries
+Libraries I have developed and maintain
 
 {% if site.data.repositories.software %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -31,6 +32,7 @@ nav_order: 3
 ---
 
 ## Random
+Random repositories, some useful, some not
 
 {% if site.data.repositories.software_random %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -39,3 +41,16 @@ nav_order: 3
   {% endfor %}
 </div>
 {% endif %} 
+
+---
+
+## Contributions
+Some selected smaller contributions to other projects
+
+{% if site.data.repositories.software_contributions %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.software_contributions %}
+    {% include repository/repo.html repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}

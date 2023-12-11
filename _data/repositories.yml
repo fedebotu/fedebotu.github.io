@@ -14,5 +14,10 @@ software_random:
   - fedebotu/ICLR2022-OpenReviewData
   - fedebotu/ai-server-motd
 
-software_contribs:
-  - 
+software_contributions:
+  - Dao-AILab/flash-attention
+  - pytorch/rl
+  - FLAIROx/JaxMARL
+  - EdwardDixon/snake
+  - Nuitka/Nuitka-Action
+  - thunil/Deep-Flow-Prediction
