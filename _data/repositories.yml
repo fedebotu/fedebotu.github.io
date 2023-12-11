@@ -1,12 +1,18 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - fedebotu
+  # - alshedivat
 
-github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+software:
+  - ai4co/rl4co
+  - DiffEqML/torchdyn
+
+software_random:
+  - fedebotu/clone-anonymous-github
+  - fedebotu/k-trains
+  - fedebotu/Green-Planet-Transformers-3
+  - fedebotu/robust-downloader
+  - fedebotu/ICLR2022-OpenReviewData
+  - fedebotu/ai-server-motd
+
+software_contribs:
+  - 

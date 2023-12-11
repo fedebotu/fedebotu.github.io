@@ -1,34 +1,51 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Berto":
+  - firstname: ["Federico", "F.", "F. B.", "Berto Federico"]
+    url: https://fedebotu.github.io
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Massaroli":
+  - firstname: ["Stefano", "S.", "S. M.", "Massaroli Stefano", "Massaroli* Stefano"]
+    url: https://github.com/massastrello
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Poli":
+  - firstname: ["Michael", "M.", "M. P.", "Michael Poli"]
+    url: https://zymrael.github.io
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Park":
+  - firstname: ["Jinkyoo", "J.", "J. P.", "Park Jinkyoo"]
+    url: http://silab.kaist.ac.kr/our-team/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Hua":
+  - firstname: ["Chuanbo", "C.", "C. H.", "Hua Chuanbo"]
+    url: https://cbhua.github.io/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Park":
+  - firstname: ["Junyoung", "J.", "J. P.", "Park Junyoung"]
+    url: https://junyoungpark.github.io/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Kim":
+  - firstname: ["Haeyeon", "H.", "H. K.", "Kim Haeyeon"]
+    url: https://sites.google.com/view/haeyeon-rachel-kim/home
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Dao":
+  - firstname: ["Tri", "T.", "T. D.", "Dao Tri"]
+    url: https://tridao.me/
+  
+"Kochenderfer":
+  - firstname: ["Mykel", "M.", "M. K.", "Kochenderfer Mykel"]
+    url: https://mykel.kochenderfer.com/
+  
+"Ermon":
+  - firstname: ["Stefano", "S.", "S. E.", "Ermon Stefano"]
+    url: https://cs.stanford.edu/~ermon/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Ré":
+  - firstname: ["Christopher", "C.", "C. R.", "Ré Christopher"]
+    url: https://cs.stanford.edu/~chrismre/
+
+"Kim":
+  - firstname: ["Minsu", "M.", "M. K.", "Kim Minsu"]
+    url: "https://minsuukim.github.io/"
+
+"Ahn":
+  - firstname: ["Sungsoo", "S.", "S. A.", "Ahn Sungsoo"]
+    url: "https://sites.google.com/view/sungsooahn0215/home"
