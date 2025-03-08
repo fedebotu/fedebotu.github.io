@@ -3,6 +3,9 @@ layout: cv
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 4
-cv_pdf: Curriculum_Vitae_CV_2023_Federico_Berto.pdf
+nav_order: 5
+cv_pdf: cv_federico_berto.pdf # you can also use external links here
+description: CV up-to-date as of 2025.02
+toc:
+  sidebar: left
 ---

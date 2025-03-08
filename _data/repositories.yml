@@ -6,18 +6,36 @@ software:
   - ai4co/rl4co
   - DiffEqML/torchdyn
 
+project_repos: 
+  - ai4co/routefinder
+  - ai4co/devformer
+  - ai4co/parco
+  - kaist-silab/graphsplinenets
+  - kaist-silab/bootgen
+  - ai4co/camp
+  - ai4co/eph-mapf
+  - DiffEqML/diffeqml-research
+
 software_random:
-  - fedebotu/clone-anonymous-github
   - fedebotu/k-trains
   - fedebotu/Green-Planet-Transformers-3
   - fedebotu/robust-downloader
   - fedebotu/ICLR2022-OpenReviewData
   - fedebotu/ai-server-motd
+  - fedebotu/disable-camera-shutter-noise
+  - fedebotu/clone-anonymous-github
+  - DiffEqML/kairos
 
 software_contributions:
   - Dao-AILab/flash-attention
   - pytorch/rl
+  - JoshuaC215/agent-service-toolkit
   - FLAIROx/JaxMARL
   - EdwardDixon/snake
   - Nuitka/Nuitka-Action
   - thunil/Deep-Flow-Prediction
+  - ai4co/awesome-fm4co
+
+
+communities:
+  - ai4co
