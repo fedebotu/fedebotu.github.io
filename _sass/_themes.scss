@@ -1,159 +1,407 @@
 /*******************************************************************************
- * Themes
+ * AI4CO - like theme
  ******************************************************************************/
 
-@use "sass:color";
+ @use "sass:color";
 
-:root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+ // Color variables - Enhanced to match the screenshot
+ $white-color: #ffffff;
+ $black-color: #1a1a24;
+ $grey-color-dark: #1c1e2a;
+ $grey-color: #5a5a6e;
+ $grey-color-light: #a1a1b5;
+ $grey-900: #272934;
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+ $purple-color: #e5442d; // Changed to match the red/orange theme in screenshot
+ $cyan-color: #ff5533;   // Brighter version for dark theme
+ $red-color-dark: #e5442d;
+ $code-bg-color-light: #f0f0f0;
+ $code-bg-color-dark: #2c2e3a;
 
-  #light-toggle-system {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
+ // Variables for back-to-top button
+ $back-to-top-bottom: 20px;
+ $back-to-top-right: 20px;
+ $back-to-top-height: 40px;
+ $back-to-top-width: 40px;
+ $back-to-top-z-index: 10;
 
-  #light-toggle-dark {
-    display: none;
-  }
+ :root {
+   --global-bg-color: #{$white-color};
+   --global-code-bg-color: #{$code-bg-color-light};
+   --global-text-color: #{$black-color};
+   --global-text-color-light: #{$grey-color};
+   --global-theme-color: #{$purple-color};
+   --global-hover-color: #{$purple-color};
+   --global-hover-text-color: #{$white-color};
+   --global-footer-bg-color: #{$grey-color-dark};
+   --global-footer-text-color: #{$grey-color-light};
+   --global-footer-link-color: #{$white-color};
+   --global-distill-app-color: #{$grey-color};
+   --global-divider-color: rgba(0, 0, 0, 0.1);
+   --global-card-bg-color: #{$white-color};
+   --global-highlight-color: #{$red-color-dark};
+   --global-back-to-top-bg-color: rgba(
+     #{color.channel($black-color, "red", $space: rgb)},
+     #{color.channel($black-color, "green", $space: rgb)},
+     #{color.channel($black-color, "blue", $space: rgb)},
+     0.4
+   );
+   --global-back-to-top-text-color: #{$white-color};
+   --global-newsletter-bg-color: #{$white-color};
+   --global-newsletter-text-color: #{$black-color};
 
-  #light-toggle-light {
-    display: none;
-  }
+   // Alert blocks - Enhanced for better visibility
+   --global-tip-block: #42b983;
+   --global-tip-block-bg: #e2f5ec;
+   --global-tip-block-text: #215d42;
+   --global-tip-block-title: #359469;
+   --global-warning-block: #e7c000;
+   --global-warning-block-bg: #fff8d8;
+   --global-warning-block-text: #6b5900;
+   --global-warning-block-title: #b29400;
+   --global-danger-block: #e5442d;
+   --global-danger-block-bg: #ffebe8;
+   --global-danger-block-text: #7d2b20;
+   --global-danger-block-title: #e5442d;
 
-  .only-light {
-    display: block;
-  }
+   // Navigation - Added styles to match screenshot
+   --nav-bg-color: #e5442d;
+   --nav-text-color: #{$white-color};
+   --nav-active-bg: rgba(255, 255, 255, 0.1);
+   --nav-hover-bg: rgba(255, 255, 255, 0.2);
 
-  .only-dark {
-    display: none;
-  }
+   // Hero section - Added to match screenshot
+   --hero-bg-color: #{$grey-color-dark};
+   --hero-text-color: #{$white-color};
+   --hero-accent-color: #e5442d;
 
-  #back-to-top {
-    color: var(--global-back-to-top-text-color);
-    background: var(--global-back-to-top-bg-color);
-    bottom: $back-to-top-bottom;
-    right: $back-to-top-right;
-    height: $back-to-top-height;
-    width: $back-to-top-width;
-    z-index: $back-to-top-z-index;
-  }
-}
+   #light-toggle-system {
+     padding-left: 10px;
+     padding-top: 12px;
+     display: block;
+   }
 
-html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+   #light-toggle-dark {
+     display: none;
+   }
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+   #light-toggle-light {
+     display: none;
+   }
 
-  .only-light {
-    display: none;
-  }
+   .only-light {
+     display: block;
+   }
 
-  .only-dark {
-    display: block;
-  }
-}
+   .only-dark {
+     display: none;
+   }
 
-html[data-theme-setting="dark"] {
-  #light-toggle-system {
-    display: none;
-  }
+   #back-to-top {
+     color: var(--global-back-to-top-text-color);
+     background: var(--global-back-to-top-bg-color);
+     bottom: $back-to-top-bottom;
+     right: $back-to-top-right;
+     height: $back-to-top-height;
+     width: $back-to-top-width;
+     z-index: $back-to-top-z-index;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: all 0.3s ease;
 
-  #light-toggle-dark {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
+     &:hover {
+       background: var(--global-theme-color);
+       transform: translateY(-3px);
+     }
+   }
+ }
 
-  #light-toggle-light {
-    display: none;
-  }
+ html[data-theme="dark"] {
+   --global-bg-color: #{$grey-color-dark};
+   --global-code-bg-color: #{$code-bg-color-dark};
+   --global-text-color: #{$grey-color-light};
+   --global-text-color-light: #{$grey-color};
+   --global-theme-color: #{$cyan-color};
+   --global-hover-color: #{$cyan-color};
+   --global-hover-text-color: #{$white-color};
+   --global-footer-bg-color: #{$grey-color-light};
+   --global-footer-text-color: #{$grey-color-dark};
+   --global-footer-link-color: #{$black-color};
+   --global-distill-app-color: #{$grey-color-light};
+   --global-divider-color: #424246;
+   --global-card-bg-color: #{$grey-900};
+   --global-back-to-top-bg-color: rgba(
+     #{color.channel($white-color, "red", $space: rgb)},
+     #{color.channel($white-color, "green", $space: rgb)},
+     #{color.channel($white-color, "blue", $space: rgb)},
+     0.5
+   );
+   --global-back-to-top-text-color: #{$black-color};
+   --global-newsletter-bg-color: #{$grey-color-light};
+   --global-newsletter-text-color: #{$grey-color-dark};
 
-  #back-to-top {
-    color: var(--global-back-to-top-text-color);
-    background: var(--global-back-to-top-bg-color);
-  }
-}
+   // Alert blocks in dark mode
+   --global-tip-block: #42b983;
+   --global-tip-block-bg: rgba(66, 185, 131, 0.1);
+   --global-tip-block-text: #aff5d6;
+   --global-tip-block-title: #64d8a4;
+   --global-warning-block: #e7c000;
+   --global-warning-block-bg: rgba(231, 192, 0, 0.1);
+   --global-warning-block-text: #ffe564;
+   --global-warning-block-title: #ffcb2d;
+   --global-danger-block: #ff5533;
+   --global-danger-block-bg: rgba(255, 85, 51, 0.1);
+   --global-danger-block-text: #ffa494;
+   --global-danger-block-title: #ff7a66;
 
-html[data-theme-setting="light"] {
-  #light-toggle-system {
-    display: none;
-  }
+   // Navigation in dark mode
+   --nav-bg-color: #20222e;
+   --nav-text-color: #{$grey-color-light};
+   --nav-active-bg: rgba(255, 85, 51, 0.2);
+   --nav-hover-bg: rgba(255, 85, 51, 0.1);
 
-  #light-toggle-dark {
-    display: none;
-  }
+   // Hero section in dark mode
+   --hero-bg-color: #{$grey-color-dark};
+   --hero-text-color: #{$white-color};
+   --hero-accent-color: #ff5533;
 
-  #light-toggle-light {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-}
+   .only-light {
+     display: none;
+   }
+
+   .only-dark {
+     display: block;
+   }
+ }
+
+ html[data-theme-setting="dark"] {
+   #light-toggle-system {
+     display: none;
+   }
+
+   #light-toggle-dark {
+     padding-left: 10px;
+     padding-top: 12px;
+     display: block;
+   }
+
+   #light-toggle-light {
+     display: none;
+   }
+
+   #back-to-top {
+     color: var(--global-back-to-top-text-color);
+     background: var(--global-back-to-top-bg-color);
+   }
+ }
+
+ html[data-theme-setting="light"] {
+   #light-toggle-system {
+     display: none;
+   }
+
+   #light-toggle-dark {
+     display: none;
+   }
+
+   #light-toggle-light {
+     padding-left: 10px;
+     padding-top: 12px;
+     display: block;
+   }
+ }
+
+ // New styles for the navigation bar to match the screenshot
+ .main-header {
+   background-color: var(--nav-bg-color);
+   padding: 0.5rem 1rem;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+   .navbar {
+     display: flex;
+     align-items: center;
+
+     .navbar-brand {
+       color: var(--nav-text-color);
+       font-weight: 600;
+       font-size: 1.25rem;
+       margin-right: 2rem;
+       display: flex;
+       align-items: center;
+
+       svg, img {
+         margin-right: 0.5rem;
+       }
+     }
+
+     .navbar-nav {
+       display: flex;
+       list-style: none;
+       margin: 0;
+       padding: 0;
+
+       .nav-item {
+         margin-right: 1rem;
+
+         .nav-link {
+           color: var(--nav-text-color);
+           padding: 0.5rem 1rem;
+           border-radius: 4px;
+           font-weight: 500;
+           transition: background-color 0.2s ease;
+
+           &:hover, &.active {
+             background-color: var(--nav-hover-bg);
+             text-decoration: none;
+           }
+
+           &.active {
+             background-color: var(--nav-active-bg);
+             font-weight: 600;
+           }
+         }
+       }
+     }
+   }
+
+   .search-container {
+     margin-left: auto;
+     position: relative;
+
+     input[type="search"] {
+       background-color: rgba(255, 255, 255, 0.15);
+       border: none;
+       border-radius: 4px;
+       padding: 0.5rem 1rem 0.5rem 2.5rem;
+       color: var(--nav-text-color);
+       outline: none;
+
+       &::placeholder {
+         color: rgba(255, 255, 255, 0.7);
+       }
+
+       &:focus {
+         background-color: rgba(255, 255, 255, 0.25);
+       }
+     }
+
+     .search-icon {
+       position: absolute;
+       left: 0.75rem;
+       top: 50%;
+       transform: translateY(-50%);
+       color: var(--nav-text-color);
+       opacity: 0.7;
+     }
+   }
+ }
+
+ // Hero section styles to match the screenshot
+ .hero-section {
+   background-color: var(--hero-bg-color);
+   color: var(--hero-text-color);
+   padding: 5rem 2rem;
+   position: relative;
+   overflow: hidden;
+
+   .hero-content {
+     max-width: 1200px;
+     margin: 0 auto;
+     position: relative;
+     z-index: 2;
+
+     .hero-logo {
+       display: block;
+       margin-bottom: 2.5rem;
+       max-width: 300px;
+     }
+
+     .hero-title {
+       font-size: 3.5rem;
+       font-weight: 700;
+       margin-bottom: 1.5rem;
+
+       .accent {
+         color: var(--hero-accent-color);
+       }
+     }
+
+     .hero-description {
+       font-size: 1.25rem;
+       max-width: 700px;
+       margin-bottom: 2.5rem;
+       line-height: 1.6;
+     }
+   }
+
+   .constellation-bg {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     opacity: 0.6;
+     z-index: 1;
+     pointer-events: none;
+   }
+ }
+
+ // Card styles for content sections
+ .content-card {
+   background-color: var(--global-card-bg-color);
+   border-radius: 8px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   padding: 2rem;
+   margin-bottom: 2rem;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+   &:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+   }
+
+   .card-title {
+     font-size: 1.5rem;
+     font-weight: 600;
+     margin-bottom: 1rem;
+     color: var(--global-theme-color);
+   }
+
+   .card-content {
+     color: var(--global-text-color);
+   }
+ }
+
+ // Button styles
+ .btn {
+   display: inline-block;
+   padding: 0.75rem 1.5rem;
+   font-weight: 600;
+   border-radius: 4px;
+   transition: all 0.3s ease;
+   text-decoration: none;
+
+   &.btn-primary {
+     background-color: var(--global-theme-color);
+     color: var(--global-hover-text-color);
+
+     &:hover {
+       background-color: var(--global-hover-color);
+       transform: translateY(-2px);
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+     }
+   }
+
+   &.btn-outline {
+     border: 2px solid var(--global-theme-color);
+     color: var(--global-theme-color);
+     background-color: transparent;
+
+     &:hover {
+       background-color: var(--global-theme-color);
+       color: var(--global-hover-text-color);
+     }
+   }
+ }
