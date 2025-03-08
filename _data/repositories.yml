@@ -6,7 +6,7 @@ software:
   - ai4co/rl4co
   - DiffEqML/torchdyn
 
-project_repos: 
+project_repos:
   - ai4co/routefinder
   - ai4co/devformer
   - ai4co/parco
@@ -35,7 +35,6 @@ software_contributions:
   - Nuitka/Nuitka-Action
   - thunil/Deep-Flow-Prediction
   - ai4co/awesome-fm4co
-
 
 communities:
   - ai4co

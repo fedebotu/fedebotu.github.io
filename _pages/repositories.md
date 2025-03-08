@@ -6,6 +6,7 @@ description: Selected software repos and open source projects
 nav: true
 nav_order: 3
 ---
+
 <!-- ## GitHub users
 
 {% if site.data.repositories.github_users %}
@@ -18,21 +19,18 @@ nav_order: 3
 
 --- -->
 
-
-
-
-
 ## Software Libraries
+
 Libraries I have developed and maintain
 
 {% if site.data.repositories.software %}
+
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.software %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
-{% endif %} 
-
+{% endif %}
 
 ---
 
@@ -41,41 +39,43 @@ Libraries I have developed and maintain
 Project repositories
 
 {% if site.data.repositories.project_repos %}
+
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.project_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
-{% endif %} 
-
-
+{% endif %}
 
 ---
 
 ## Random
+
 Random repositories, some useful, some not
 
 {% if site.data.repositories.software_random %}
+
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.software_random %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
-{% endif %} 
+{% endif %}
 
 ---
 
 ## Contributions
+
 Some selected smaller contributions to other projects
 
 {% if site.data.repositories.software_contributions %}
+
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.software_contributions %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
 {% endif %}
-
 
 ---
 

@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Federico
-middle_name: 
+middle_name:
 last_name: Berto
 contact_note: >
   You can also reach me out through the <a href="https://join.slack.com/t/rl4co/shared_invite/zt-1ytz2c1v4-0IkQ8NQH4TRXIX8PrRmDhQ" target="_blank">AI4CO Community Slack</a>!
@@ -15,16 +15,13 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ai4co_logo.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
+icon: ai4co_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://fedebotu.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
-
-
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -622,14 +619,13 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
 # jekyll_get_json:
-  # - data: resume
-    # json: assets/json/resume.json # it can also be an url
+# - data: resume
+# json: assets/json/resume.json # it can also be an url
 
 # jsonresume:
 #   - basics

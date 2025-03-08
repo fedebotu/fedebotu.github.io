@@ -28,20 +28,20 @@ layout: default
 
     <article>
       {% if page.cv_pdf %}
-      <div class="pdf-embed-container">
-        <embed 
-          {% if page.cv_pdf contains '://' %}
-            src="{{ page.cv_pdf }}"
-          {% else %}
-            src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-          {% endif %}
-          type="application/pdf"
-          width="100%"
-          height="600px"
-        />
-      </div>
+        <div class="pdf-embed-container">
+          <embed
+            {% if page.cv_pdf contains '://' %}
+              src="{{ page.cv_pdf }}"
+            {% else %}
+              src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            type="application/pdf"
+            width="100%"
+            height="600px"
+          >
+        </div>
       {% endif %}
-      
+
       <div class="cv">
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
@@ -94,20 +94,20 @@ layout: default
 
     <article>
       {% if page.cv_pdf %}
-      <div class="pdf-embed-container">
-        <embed 
-          {% if page.cv_pdf contains '://' %}
-            src="{{ page.cv_pdf }}"
-          {% else %}
-            src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-          {% endif %}
-          type="application/pdf"
-          width="100%"
-          height="600px"
-        />
-      </div>
+        <div class="pdf-embed-container">
+          <embed
+            {% if page.cv_pdf contains '://' %}
+              src="{{ page.cv_pdf }}"
+            {% else %}
+              src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            type="application/pdf"
+            width="100%"
+            height="600px"
+          >
+        </div>
       {% endif %}
-      
+
       <div class="cv">
         {% for data in site.data.resume %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
