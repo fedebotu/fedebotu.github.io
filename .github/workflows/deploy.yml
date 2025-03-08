@@ -75,6 +75,10 @@ jobs:
           ruby-version: "3.3.5"
           # bundler-cache: true
           bunder-cache: false # temp
+      - name: Install Ruby dependencies
+        run: |
+          gem install jekyll bundler
+          bundle install
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
