@@ -172,7 +172,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 
-excludes:
+excludes: # does this
   - _pages/dropdown.md
   - _posts/
   - _projects/
@@ -201,6 +201,9 @@ exclude:
   - _pages/blog.md
   - _posts/
   - _pages/projects.md
+  - _pages/dropdown.md
+  - _posts/
+  - _projects/
 
 keep_files:
   - CNAME
