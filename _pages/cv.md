@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: cv_federico_berto.pdf # you can also use external links here
-description: CV up-to-date as of 2025.02
+description: CV up-to-date as of 2025.03
 toc:
   sidebar: left
 ---
