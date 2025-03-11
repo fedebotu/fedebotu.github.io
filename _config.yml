@@ -172,6 +172,11 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 
+excludes:
+  - _pages/dropdown.md
+  - _posts/
+  - _projects/
+
 # Note: append here for excluding stuff
 exclude:
   - bin/
