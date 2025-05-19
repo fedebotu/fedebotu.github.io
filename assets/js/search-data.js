@@ -81,6 +81,12 @@ ninja.data = [{
           section: "News",},{id: "news-a-paper-got-selected-as-best-paper-award-finalist-at-designcon-2025",
           title: 'A paper got selected as Best Paper Award Finalist at DesignCon 2025!',
           description: "",
+          section: "News",},{id: "news-a-paper-got-accepted-at-ieee-t-cpmt",
+          title: 'A paper got accepted at IEEE T-CPMT!',
+          description: "",
+          section: "News",},{id: "news-our-rl4co-benchmark-got-accepted-as-oral-presentation-at-kdd-2025-see-you-in-toronto",
+          title: 'Our RL4CO benchmark got accepted as oral presentation at KDD 2025. See you...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
