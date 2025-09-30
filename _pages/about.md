@@ -29,11 +29,14 @@ announcements:
 
 Hello world!
 
-I am a PhD student in the Industrial and Systems Engineering department at KAIST, where I am fortunate to be advised by <a href="http://silab.kaist.ac.kr/our-team/">Prof. Jinkyoo Park</a> at the <a href="http://silab.kaist.ac.kr">Systems Intelligence Laboratory (SILAB)</a> .
+I am currently an AI Scientist at <a href="https://radicalnumerics.ai/">Radical Numerics</a>, where I work on agentic AI for Recursive Improvement Systems Architectures and deep learning <-> kernel optimization, among other things.
 
-My main research interest is applied deep learning, such as decision-making in discrete and continuous spaces. I have recently been working in mainly two areas:
+I obtained my Ph.D. in the Industrial and Systems Engineering department at KAIST, where I was fortunate to be advised by <a href="http://silab.kaist.ac.kr/our-team/">Prof. Jinkyoo Park</a> at the <a href="http://silab.kaist.ac.kr">Systems Intelligence Laboratory (SILAB)</a> .
+
+My main research interests include decision-making and optimization in discrete and continuous spaces, including:
 
 - Neural Combinatorial Optimization (NCO)
 - Scientific Machine Learning (AI4Science)
+- Agentic AI workflows for optimization and discovery
 
 I love to work on open-source projects. I recently co-founded the <a href="https://github.com/ai4co">AI4CO</a> open research group and collaborate with <a href="https://github.com/DiffEqML">DiffEqML</a>.
