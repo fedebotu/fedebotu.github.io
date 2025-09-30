@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "CV up-to-date as of 2025.03",
+          description: "CV up-to-date as of 2025.10",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -86,6 +86,15 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-rl4co-benchmark-got-accepted-as-oral-presentation-at-kdd-2025-see-you-in-toronto",
           title: 'Our RL4CO benchmark got accepted as oral presentation at KDD 2025. See you...',
+          description: "",
+          section: "News",},{id: "news-i-joined-radical-numerics-as-ai-scientist",
+          title: 'I joined Radical Numerics ⠏⠆ as AI Scientist!',
+          description: "",
+          section: "News",},{id: "news-the-routefinder-paper-has-been-published-in-tmlr",
+          title: 'The RouteFinder paper has been published in TMLR!',
+          description: "",
+          section: "News",},{id: "news-parco-has-been-accepted-at-neurips-2025-see-you-in-san-diego",
+          title: 'PARCO has been accepted at NeurIPS 2025! See you in San Diego 🇺🇸...',
           description: "",
           section: "News",},{
         id: 'social-email',
