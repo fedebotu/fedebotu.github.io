@@ -96,6 +96,9 @@ ninja.data = [{
           section: "News",},{id: "news-parco-has-been-accepted-at-neurips-2025-see-you-in-san-diego",
           title: 'PARCO has been accepted at NeurIPS 2025! See you in San Diego 🇺🇸...',
           description: "",
+          section: "News",},{id: "news-two-papers-trajevo-and-uspr-got-accepted-at-aaai-2026",
+          title: 'Two papers (TrajEvo and USPR) got accepted at AAAI 2026!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
