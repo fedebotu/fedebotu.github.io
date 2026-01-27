@@ -99,6 +99,9 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-trajevo-and-uspr-got-accepted-at-aaai-2026",
           title: 'Two papers (TrajEvo and USPR) got accepted at AAAI 2026!',
           description: "",
+          section: "News",},{id: "news-a-paper-rrnco-has-been-accepted-at-iclr-2026",
+          title: 'A paper (RRNCO) has been accepted at ICLR 2026 🇧🇷',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
