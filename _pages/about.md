@@ -27,9 +27,8 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello world!
 
-I am currently a Founding Scientist at <a href="https://radicalnumerics.ai/">Radical Numerics</a>, where I work on general biological intelligence and next-generation genome language models, agentic AI for Recursive Self-Improvement, and efficient architectures, among other things.
+I am a Founding Scientist at <a href="https://radicalnumerics.ai/">Radical Numerics</a>, where I work on general biological intelligence and next-generation genome language models, agentic AI for Recursive Self-Improvement, and efficient architectures, among other things.
 
 I obtained my Ph.D. in the Industrial and Systems Engineering department at KAIST, where I was fortunate to be advised by <a href="http://silab.kaist.ac.kr/our-team/">Prof. Jinkyoo Park</a> at the <a href="http://silab.kaist.ac.kr">Systems Intelligence Laboratory (SILAB)</a> .
 
