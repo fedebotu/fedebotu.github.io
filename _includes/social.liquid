@@ -63,7 +63,9 @@
     {% when 'semanticscholar_id' %}
       <a href="https://www.semanticscholar.org/author/{{ social[1] }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
     {% when 'signal_username' %}
-      <a href="{% if social[1] contains '://' %}{{ social[1] }}{% else %}https://signal.me/#eu/{{ social[1] }}{% endif %}" title="Signal"><i class="fa-brands fa-signal-messenger"></i></a>
+      <a href="{% if social[1] contains '://' %}{{ social[1] }}{% else %}https://signal.me/#eu/{{ social[1] }}{% endif %}" title="Signal"
+        ><i class="fa-brands fa-signal-messenger"></i
+      ></a>
     {% when 'spotify_id' %}
       <a href="https://open.spotify.com/user/{{ social[1] }}" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
     {% when 'stackoverflow_id' %}

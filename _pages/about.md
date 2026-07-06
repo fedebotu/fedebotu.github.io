@@ -21,12 +21,12 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 7 # leave blank to include all the news in the `_news` folder
 
+
 # latest_posts:
 #   enabled: true
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
-
 
 I am a Founding Scientist at <a href="https://radicalnumerics.ai/">Radical Numerics</a>, where I work on general biological intelligence and next-generation genome language models, agentic AI for Recursive Self-Improvement, and efficient architectures, among other things.
 
