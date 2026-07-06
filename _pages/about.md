@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.kaist.ac.kr/en/'>KAIST</a>. Daejeon, South Korea
+subtitle: Founding Scientist at <a href='https://radicalnumerics.ai/'>Radical Numerics</a>. Tokyo, Japan
 
 profile:
   align: right
@@ -29,14 +29,15 @@ announcements:
 
 Hello world!
 
-I am currently an AI Scientist at <a href="https://radicalnumerics.ai/">Radical Numerics</a>, where I work on agentic AI for Recursive Improvement Systems Architectures and deep learning <-> kernel optimization, among other things.
+I am currently a Founding Scientist at <a href="https://radicalnumerics.ai/">Radical Numerics</a>, where I work on general biological intelligence and next-generation genome language models, agentic AI for Recursive Self-Improvement, and efficient architectures, among other things.
 
 I obtained my Ph.D. in the Industrial and Systems Engineering department at KAIST, where I was fortunate to be advised by <a href="http://silab.kaist.ac.kr/our-team/">Prof. Jinkyoo Park</a> at the <a href="http://silab.kaist.ac.kr">Systems Intelligence Laboratory (SILAB)</a> .
 
-My main research interests include decision-making and optimization in discrete and continuous spaces, including:
+My main research interests include:
 
-- Neural Combinatorial Optimization (NCO)
-- Scientific Machine Learning (AI4Science)
-- Agentic AI workflows for optimization and discovery
+- Efficient architectures beyond autoregressive transformers
+- Genomic and biological foundation models (AI for Science; biosecurity and biodefense)
+- AI for Combinatorial Optimization
+- Multi-agent systems and agentic AI
 
 I love to work on open-source projects. I recently co-founded the <a href="https://github.com/ai4co">AI4CO</a> open research group and collaborate with <a href="https://github.com/DiffEqML">DiffEqML</a>.
