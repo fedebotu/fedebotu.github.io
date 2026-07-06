@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "CV up-to-date as of 2025.11",
+          description: "CV up-to-date as of 2026.07",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -87,8 +87,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-rl4co-benchmark-got-accepted-as-oral-presentation-at-kdd-2025-see-you-in-toronto",
           title: 'Our RL4CO benchmark got accepted as oral presentation at KDD 2025. See you...',
           description: "",
-          section: "News",},{id: "news-i-joined-radical-numerics-as-ai-scientist",
-          title: 'I joined Radical Numerics ⠏⠆ as AI Scientist!',
+          section: "News",},{id: "news-i-joined-radical-numerics-as-founding-scientist",
+          title: 'I joined Radical Numerics ⠏⠆ as Founding Scientist!',
           description: "",
           section: "News",},{id: "news-the-routefinder-paper-has-been-published-in-tmlr",
           title: 'The RouteFinder paper has been published in TMLR!',
@@ -102,12 +102,28 @@ ninja.data = [{
           section: "News",},{id: "news-a-paper-rrnco-has-been-accepted-at-iclr-2026",
           title: 'A paper (RRNCO) has been accepted at ICLR 2026 🇧🇷',
           description: "",
+          section: "News",},{id: "news-routefinder-has-been-accepted-to-the-icml-2026-journal-to-conference-j2c-track",
+          title: 'RouteFinder has been accepted to the ICML 2026 Journal-to-Conference (J2C) Track! 🇰🇷',
+          description: "",
+          section: "News",},{id: "news-a-new-paper-rethinking-neural-vehicle-routing-as-multi-agent-decision-making-has-been-accepted-at-the-gfm-workshop-icml-2026",
+          title: 'A new paper (Rethinking Neural Vehicle Routing as Multi-Agent Decision Making) has been...',
+          description: "",
+          section: "News",},{id: "news-radical-numerics-raised-a-50m-seed-to-build-general-biological-intelligence-and-previewed-omnii-our-next-generation-genome-language-model-for-human-health-and-biodefense",
+          title: 'Radical Numerics ⠏⠆ raised a $50M seed to build general biological intelligence, and...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%62%65%72%74%6F.%66%65%64%65%72%69%63%6F%32@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-signal_username',
+        title: 'Signal_username',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
         id: 'social-github',
